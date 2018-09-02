@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "scenario description",
+        "description": "",
+        "id": "this-feature-is-designed-to-validate-multiple-set-of-data;scenario-description;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 266346506,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a precondition has value Chrome and something with http://demo.nopcommerce.com/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 25
+                },
+                {
+                  "val": "http://demo.nopcommerce.com/",
+                  "offset": 51
+                }
+              ],
+              "location": "Tc_02_MultipleData.LaunchApplication(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "check \u003cparam_3\u003e is the output",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@multipleSetData"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "scenario description",
+        "description": "",
+        "id": "this-feature-is-designed-to-validate-multiple-set-of-data;scenario-description;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11231519013,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a precondition has value firefox and something with http://demo.nopcommerce.com/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 25
+                },
+                {
+                  "val": "http://demo.nopcommerce.com/",
+                  "offset": 52
+                }
+              ],
+              "location": "Tc_02_MultipleData.LaunchApplication(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "check \u003cparam_3\u003e is the output",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@multipleSetData"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is designed to validate multiple set of data",
+    "description": "",
+    "id": "this-feature-is-designed-to-validate-multiple-set-of-data",
+    "keyword": "Feature",
+    "uri": "ScenaioOutLine.feature"
+  }
+]
